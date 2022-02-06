@@ -11,8 +11,8 @@ from collections import Counter
 import plotly.express as px
 from nsepy import get_history
 
-portfolio_df = pd.read_csv('D:\ScreenMyStocks\Exploration\holdings (2).csv')
-screener_df = pd.read_csv('D:\ScreenMyStocks\Exploration\Tickertape_04022022.csv')
+portfolio_df = pd.read_csv('holdings (2).csv')
+screener_df = pd.read_csv('Tickertape_04022022.csv')
 portfolio_df = portfolio_df.sort_values(by='P&L', ascending=False)
 
 # Map tickers to sub-sectors
