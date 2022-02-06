@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: white;
+    margin: 2%;
+}
+
+#header {
+    align-items: center;
+}
+
+.flex-display{
+    display: flex;
+}
+
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    text-align: center;
+}
+
+#title1{
+    text-align: center;
+}
+
+.card_container {
+    bored-radius: 5px;
+    background-color: #ededed;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px #ededed;
+}
